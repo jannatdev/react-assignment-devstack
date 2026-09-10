@@ -1,0 +1,98 @@
+[
+  {
+    "technologyIcon": "https://www.pngall.com/wp-content/uploads/15/React-Logo.png",
+    "technologyName": "React",
+    "description": "A JavaScript library for building fast and interactive user interfaces.",
+    "technologyType": "Frontend",
+    "serviceType": "Web Development",
+    "rating": 4.9
+  },
+  {
+    "technologyIcon": "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/vue-js-icon.png",
+    "technologyName": "Vue.js",
+    "description": "A progressive JavaScript framework for building modern web interfaces.",
+    "technologyType": "Frontend",
+    "serviceType": "Web Development",
+    "rating": 4.8
+  },
+  {
+    "technologyIcon": "https://images.seeklogo.com/logo-png/36/2/svelte-logo-png_seeklogo-363282.png",
+    "technologyName": "Svelte",
+    "description": "A modern frontend framework that compiles components into highly optimized JavaScript.",
+    "technologyType": "Frontend",
+    "serviceType": "Web Development",
+    "rating": 4.7
+  },
+  {
+    "technologyIcon": "https://codeinterview.io/landing-assets/img/lang-logos/next-js-lang.png",
+    "technologyName": "Next.js",
+    "description": "A React framework for building fast, scalable, and SEO-friendly web applications.",
+    "technologyType": "Full Stack",
+    "serviceType": "Web Development",
+    "rating": 4.9
+  },
+  {
+    "technologyIcon": "https://cdn.iconscout.com/icon/free/png-256/free-node-js-icon-svg-download-png-1174935.png",
+    "technologyName": "Node.js",
+    "description": "A JavaScript runtime used to build scalable and high-performance backend applications.",
+    "technologyType": "Backend",
+    "serviceType": "Backend Development",
+    "rating": 4.8
+  },
+  {
+    "technologyIcon": "https://download.logo.wine/logo/PostgreSQL/PostgreSQL-Logo.wine.png",
+    "technologyName": "PostgreSQL",
+    "description": "A powerful open-source relational database system for reliable data storage.",
+    "technologyType": "Database",
+    "serviceType": "Database Development",
+    "rating": 4.8
+  },
+  {
+    "technologyIcon": "https://cdn.iconscout.com/icon/free/png-256/free-redis-icon-svg-download-png-1175103.png",
+    "technologyName": "Redis",
+    "description": "An in-memory data store commonly used for caching, sessions, and real-time applications.",
+    "technologyType": "Database",
+    "serviceType": "Backend Development",
+    "rating": 4.7
+  },
+  {
+    "technologyIcon": "https://img.icons8.com/color/512/javascript--v1.png",
+    "technologyName": "JavaScript",
+    "description": "A versatile programming language used to create interactive and dynamic web applications.",
+    "technologyType": "Programming Language",
+    "serviceType": "Web Development",
+    "rating": 4.9
+  },
+  {
+    "technologyIcon": "https://images.icon-icons.com/2415/PNG/512/typescript_plain_logo_icon_146316.png",
+    "technologyName": "TypeScript",
+    "description": "A strongly typed programming language built on JavaScript for scalable applications.",
+    "technologyType": "Programming Language",
+    "serviceType": "Web Development",
+    "rating": 4.9
+  },
+  {
+    "technologyIcon": "https://static.vecteezy.com/system/resources/thumbnails/048/332/150/small/java-programming-language-java-logo-free-png.png",
+    "technologyName": "Java",
+    "description": "A popular object-oriented programming language used for enterprise and backend applications.",
+    "technologyType": "Programming Language",
+    "serviceType": "Backend Development",
+    "rating": 4.7
+  },
+  {
+    "technologyIcon": "https://img.icons8.com/color/200/tailwind_css.png",
+    "technologyName": "Tailwind CSS",
+    "description": "A utility-first CSS framework for rapidly building responsive and modern user interfaces.",
+    "technologyType": "CSS Framework",
+    "serviceType": "UI Development",
+    "rating": 4.9
+  },
+  {
+    "technologyIcon": "https://logo-teka.com/wp-content/uploads/2026/06/docker-icon-logo.png",
+    "technologyName": "Docker",
+    "description": "A platform for packaging and running applications in lightweight and portable containers.",
+    "technologyType": "DevOps",
+    "serviceType": "Deployment",
+    "rating": 4.8
+  }
+]
