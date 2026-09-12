@@ -17,7 +17,7 @@ export interface TechnolgyCardsProps {
 export default function TechnolgyCards({technology,count,setCount,stuckTechnolgies,setStuckTechnologies}: TechnolgyCardsProps) {
 
     
-    const isStack =stuckTechnolgies.some((stuckTechnolgy)=> stuckTechnolgy.technologyName===technology.technologyName);
+    const isStack =stuckTechnolgies.some((stuckTechnolgy)=> stuckTechnolgy.name===technology.name);
        
          
     const handleStackButton=()=>{
@@ -26,7 +26,7 @@ export default function TechnolgyCards({technology,count,setCount,stuckTechnolgi
         if(newCount>0){
             setCount(newCount);
             // toast.success(`${technology.technologyName} is added`)
-            toast(`${technology.technologyName} is added`, {
+            toast(`${technology.name} is added`, {
                 position: "top-right",
                 autoClose: 2000,
                 hideProgressBar: false,
@@ -52,17 +52,17 @@ export default function TechnolgyCards({technology,count,setCount,stuckTechnolgi
         <div className={`grid p-4 space-y-4 border ${!isStack?" border-gray-200 rounded-xl":"border-gray-500 rounded-xl"}`}>
            
             <div className="flex justify-between items-baseline">
-                <img src={technology.technologyIcon} alt="" className="w-[8%] h-auto" />
-                <button className="bg-[#E0F2FE] text-[10px] text-[#0284C7] py-1 px-2 rounded-lg">{technology.button}</button>
+                <img src={technology.icon} alt="" className="w-[8%] h-auto" />
+                <button className="bg-[#E0F2FE] text-[10px] text-[#0284C7] py-1 px-2 rounded-lg">{technology.badge}</button>
             </div>
             <div>
-                 <h2 className="text-[18px] text-[#0F172A] font-bold">{technology.technologyName}</h2>
+                 <h2 className="text-[18px] text-[#0F172A] font-bold">{technology.name}</h2>
                  <p className="text-[#64748B] text-[12px]">{technology.description}</p>
             </div>
 
             <div className="flex justify-between items-center mt-4">
-                <p className="text-[10px] text-[#475569]">{technology.technologyType}</p>
-                <p className="text-[10px] text-[#475569]">{technology.serviceType}</p>
+                <p className="text-[10px] text-[#475569]">{technology.category}</p>
+                <p className="text-[10px] text-[#475569]">{technology.difficulty}</p>
                 <div className="flex gap-1 items-center">
                   <span className="text-yellow-500 text-[12px]"><FaStar /></span>
                    <p className="text-[10px] text-[#334155] font-semibold">{technology.rating}</p>

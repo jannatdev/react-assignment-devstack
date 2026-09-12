@@ -1,9 +1,9 @@
 export interface TechnologyType {
-    technologyIcon: string,
-    button:string,
-    technologyName: string,
+    icon: string,
+    badge?:string,
+    name: string,
     description: string,
-    technologyType: string,
-    serviceType:string,
+    category: string,
+    difficulty:string,
     rating: 4.9
   }
