@@ -39,6 +39,14 @@ const Footer = () => {
                     </ul>
                 </div>
             </div>
+            <div className='flex justify-between container mx-auto mt-10'>
+                <p className='text-[10px] text-=[#94A3B8]'>© 2026 Dev Stack. All rights reserved.</p>
+                <div className='flex gap-2'>
+                    <p className='text-[10px] text-=[#94A3B8]' >Privacy</p>
+                    <p className='text-[10px] text-=[#94A3B8]' >Link</p>
+                </div>
+            </div>
+            
             
         </div>
     )

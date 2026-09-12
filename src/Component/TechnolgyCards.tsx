@@ -49,7 +49,7 @@ export default function TechnolgyCards({technology,count,setCount,stuckTechnolgi
     
     
     return(
-        <div className="grid p-4 space-y-4 border border-gray-200 rounded-xl" >
+        <div className={`grid p-4 space-y-4 border ${!isStack?" border-gray-200 rounded-xl":"border-gray-500 rounded-xl"}`}>
            
             <div className="flex justify-between items-baseline">
                 <img src={technology.technologyIcon} alt="" className="w-[8%] h-auto" />
