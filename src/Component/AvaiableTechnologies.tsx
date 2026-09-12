@@ -9,13 +9,13 @@ export interface AvaiableTechnologiesProps {
     
     setCount:Dispatch<SetStateAction<number>>,
     stuckTechnolgies:TechnologyType[],
-    ssetStuckTechnologies:Dispatch<SetStateAction<TechnologyType[]>>
+    setStuckTechnologies:Dispatch<SetStateAction<TechnologyType[]>>
 }
 
 export default function AvaiableTechnologies({technologies,count,setCount,stuckTechnolgies,setStuckTechnologies}: AvaiableTechnologiesProps) {
     
     return (
-        <div className="grid mx-4 md:grid-cols-3 md:mx-0 gap-6 ">
+        <div className="grid mx-4 md:grid-cols-2 lg:grid-cols-3 md:mx-0 gap-6 ">
            {technologies?.map((technology)=>
            <TechnolgyCards technology={technology} count={count} setCount={setCount}  stuckTechnolgies={stuckTechnolgies} setStuckTechnologies={setStuckTechnologies} />
            

@@ -28,7 +28,7 @@ export default function Technologies({technologiesPromise}: TechnologiesProps) {
     return (
        <div>
            <div className="container mx-auto text-center md:text-left">
-                <h2 className="text-[36px] font-bold">Explore the <span className="bg-linear-to-r from-[#EC4899] to-[#8B5CF6] bg-clip-text text-transparent">Technologies</span> </h2>
+                <h2 className="text-[36px] font-bold">Explore the <span className=" bg-linear-to-r from-[#EC4899] to-[#8B5CF6] bg-clip-text text-transparent">Technologies</span> </h2>
                 <p>Pick one technology per category to build your ideal stack.</p>
             </div>
             <div className="grid  md:grid-cols-12 gap-5 container mx-auto mt-10">
