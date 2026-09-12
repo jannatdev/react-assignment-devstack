@@ -8,9 +8,9 @@ export interface NavbarProps {
 export default function Navbar({ prop }: NavbarProps) {
     
     return (
-        <div className='container mx-auto'>
-            <nav className='flex justify-between gap-7 items-center mx-15 sm:mx-10  md:mx-10 lg:mx-20'> 
-             <span className='block md:hidden '><GiHamburgerMenu /></span>   
+        <div className='container mx-auto sticky top-0 z-50 bg-white shadow-md'>
+            <nav className='flex justify-between gap-7 items-center'> 
+             <span className='block ml-4 md:hidden '><GiHamburgerMenu /></span>   
             <img src={Logo} alt="" />
             <ul className=' hidden md:flex justify-between gap-6 items-center '>
                 <li><a className='text-[#DB2777] text-[14px] font-medium' href="">Home</a></li>
