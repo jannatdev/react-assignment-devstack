@@ -1,5 +1,9 @@
 
-#Project Name
+# Project Name
+## React-Assignment-A-5 Dev Stack Builder Website
+
+# Description
+## Devstack is an interactive website built with React. Here users can browse popular technologies across different catagories such as Fronted, Backend, Styling  Database, Language, DevOps and add their preferred technologies to a personalized stack. It features reusable components, dynamic state management, technology filtering, interactive section, responsive design and a clean modern UI.
 
 
 
