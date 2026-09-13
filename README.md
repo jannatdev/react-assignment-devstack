@@ -26,11 +26,16 @@ Devstack is an interactive website built with React. Here users can browse popul
 ## What is JSX, and why is it used in React?
 Ans: JSX (JavaScript XML) is a syntax extension for JavaScript that allows HTML code inside JavaScript.
 JSX makes React code easier to read, write and understand in which UI is described in HTML structure.
+
 For Example,
+
+
            "function addFunctuion(){
            return <h2>Hello, World</h2>
              }"
-Here, "<h2>Hello, World</h2> is JSX."
+
+			 
+  Here, "<h2>Hello, World</h2> is JSX."
 In short, JSX is used in React to make it easier and more intuitive to create and manage user interface.
 
 ## What is the difference between Props and State?
