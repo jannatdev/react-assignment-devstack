@@ -12,17 +12,13 @@ export interface StuckTechnologiesProps {
     
 }
 
-export default function StuckTechnologies({ technologies,count,setCount,stuckTechnolgies,setStuckTechnologies }: StuckTechnologiesProps) {
+export default function StuckTechnologies({count,setCount,stuckTechnolgies,setStuckTechnologies }: StuckTechnologiesProps) {
      
       const handleDeleteTechnology =(technology:TechnologyType)=>{
         const restTechnologies= stuckTechnolgies.filter((stuckTechnolgy)=> stuckTechnolgy.name !== technology.name)
           setStuckTechnologies(restTechnologies);
 
           
-            
-            
-
-
           const newDeleteCount=count-1;
           
           setCount(newDeleteCount);

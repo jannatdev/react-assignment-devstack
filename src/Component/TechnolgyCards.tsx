@@ -1,7 +1,7 @@
 
 import type { TechnologyType } from "../type"
 import { FaStar } from "react-icons/fa"
-import { useState, type Dispatch, type SetStateAction } from "react";
+import {  type Dispatch, type SetStateAction } from "react";
 import { FaCheck } from "react-icons/fa6";
 import { Bounce, toast } from "react-toastify";
 
