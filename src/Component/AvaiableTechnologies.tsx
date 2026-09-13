@@ -17,7 +17,7 @@ export default function AvaiableTechnologies({technologies,count,setCount,stuckT
     return (
         <div className="grid mx-4 md:grid-cols-2 lg:grid-cols-3 md:mx-0 gap-6 ">
            {technologies?.map((technology)=>
-           <TechnolgyCards technology={technology} count={count} setCount={setCount}  stuckTechnolgies={stuckTechnolgies} setStuckTechnologies={setStuckTechnologies} />
+           <TechnolgyCards key={technology.id} technology={technology} count={count} setCount={setCount}  stuckTechnolgies={stuckTechnolgies} setStuckTechnologies={setStuckTechnologies} />
            
         )}
         </div>

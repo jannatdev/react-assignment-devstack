@@ -10,7 +10,7 @@
     "rating": 4.9
   },
   { 
-     "id":"react",
+     "id":"vue.js",
     "icon": "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/vue-js-icon.png",
      "badge":"Versatile",
     "name": "Vue.js",
@@ -20,7 +20,7 @@
     "rating": 4.8
   },
   { 
-    "id":"react", 
+    "id":"svelte", 
     "icon": "https://images.seeklogo.com/logo-png/36/2/svelte-logo-png_seeklogo-363282.png",
      "badge":"Fast",
     "name": "Svelte",
@@ -30,7 +30,7 @@
     "rating": 4.7
   },
   {
-    "id":"react",
+    "id":"Next",
     "icon": "https://codeinterview.io/landing-assets/img/lang-logos/next-js-lang.png",
     "name": "Next.js",
     "description": "The React framework for full-stack web applications with hybrid static & server rendering.",
@@ -39,7 +39,7 @@
     "rating": 4.9
   },
   {
-    "id":"react",
+    "id":"Node",
     "icon": "https://cdn.iconscout.com/icon/free/png-256/free-node-js-icon-svg-download-png-1174935.png",
     "badge":"Standard",
     "name": "Node.js",
@@ -49,7 +49,7 @@
     "rating": 4.8
   },
   {
-    "id":"react",
+    "id":"postgreSQL",
     "icon": "https://download.logo.wine/logo/PostgreSQL/PostgreSQL-Logo.wine.png",
     "badge":"TopSQL",
     "name": "PostgreSQL",
@@ -59,7 +59,7 @@
     "rating": 4.8
   },
   {
-    "id":"react",
+    "id":"redis",
     "icon": "https://cdn.iconscout.com/icon/free/png-256/free-redis-icon-svg-download-png-1175103.png",
     "badge":"Cache",
     "name": "Redis",
@@ -69,7 +69,7 @@
     "rating": 4.7
   },
   {
-    "id":"react",
+    "id":"javaScript",
     "icon": "https://img.icons8.com/color/512/javascript--v1.png",
     "badge":"Ubiqutious",
     "name": "JavaScript",
@@ -79,7 +79,7 @@
     "rating": 4.9
   },
   { 
-    "id":"react",
+    "id":"typeScript",
     "icon": "https://images.icon-icons.com/2415/PNG/512/typescript_plain_logo_icon_146316.png",
     "badge":"Essential",
     "name": "TypeScript",
@@ -89,7 +89,7 @@
     "rating": 4.9
   },
   {
-    "id":"react",
+    "id":"java",
     "icon": "https://static.vecteezy.com/system/resources/thumbnails/048/332/150/small/java-programming-language-java-logo-free-png.png",
     "badge":"Robust",
     "name": "Java",
@@ -98,7 +98,7 @@
     "difficulty": "Intermediate",
     "rating": 4.7
   },
-  { "id":"react",
+  { "id":"tailwind CSS",
     "icon": "https://img.icons8.com/color/200/tailwind_css.png",
     "badge":"Modern",
     "name": "Tailwind CSS",
@@ -107,7 +107,7 @@
     "difficulty": "Beginner-friendly",
     "rating": 4.9
   },
-  {  "id":"react",
+  {  "id":"docker",
     "icon": "https://logo-teka.com/wp-content/uploads/2026/06/docker-icon-logo.png",
     "badge":"Container",
     "name": "Docker",

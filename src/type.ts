@@ -1,4 +1,6 @@
 export interface TechnologyType {
+    
+    id:string,
     icon: string,
     badge?:string,
     name: string,

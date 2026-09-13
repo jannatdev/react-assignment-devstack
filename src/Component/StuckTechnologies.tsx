@@ -18,10 +18,15 @@ export default function StuckTechnologies({ technologies,count,setCount,stuckTec
         const restTechnologies= stuckTechnolgies.filter((stuckTechnolgy)=> stuckTechnolgy.name !== technology.name)
           setStuckTechnologies(restTechnologies);
 
-          const newDeleteCount=count-=1;
+          
+            
+            
+
+
+          const newDeleteCount=count-1;
           
           setCount(newDeleteCount);
-           toast.error('This item is deleted', {
+           toast.info(`${technology.name} is deleted!`, {
               position: "top-right",
               autoClose:2000,
               hideProgressBar: false,
@@ -32,6 +37,8 @@ export default function StuckTechnologies({ technologies,count,setCount,stuckTec
               theme: "light",
               transition: Bounce,
               })
+
+              
       }
           
           

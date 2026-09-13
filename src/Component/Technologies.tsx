@@ -2,6 +2,7 @@ import { use, useState } from "react"
 import type { TechnologyType } from "../type"
 import AvaiableTechnologies from "./AvaiableTechnologies"
 import StuckTechnologies from "./StuckTechnologies"
+import { Bounce, toast } from "react-toastify"
 
 export interface TechnologiesProps {
     technologiesPromise: Promise<TechnologyType[]>
@@ -20,6 +21,17 @@ export default function Technologies({technologiesPromise}: TechnologiesProps) {
 
         setStuckTechnologies([]);
           setCount(0);
+          toast.error('All item is deleted!', {
+            position: "top-right",
+            autoClose: 2000,
+            hideProgressBar: false,
+            closeOnClick: false,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "light",
+            transition: Bounce,
+            })
          
           }
           

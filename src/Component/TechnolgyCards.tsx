@@ -21,11 +21,32 @@ export default function TechnolgyCards({technology,count,setCount,stuckTechnolgi
        
          
     const handleStackButton=()=>{
-       
+       if (isStack){
+
+            toast.warn(`${technology.name} is already in Stuck!`, {
+                position: "top-right",
+                autoClose: 5000,
+                hideProgressBar: false,
+                closeOnClick: false,
+                pauseOnHover: true,
+                draggable: true,
+                progress: undefined,
+                theme: "light",
+                transition: Bounce,
+                })
+
+
+                   return ;
+
+         }
+          
+         
+         
+
         const newCount=count+1;
         if(newCount>0){
             setCount(newCount);
-            // toast.success(`${technology.technologyName} is added`)
+             
             toast(`${technology.name} is added`, {
                 position: "top-right",
                 autoClose: 2000,
@@ -39,10 +60,7 @@ export default function TechnolgyCards({technology,count,setCount,stuckTechnolgi
                 });
          
          } 
-         if (isStack){
-         return ;
-
-        }
+         
        
       setStuckTechnologies([...stuckTechnolgies,technology])
     }
@@ -70,8 +88,8 @@ export default function TechnolgyCards({technology,count,setCount,stuckTechnolgi
                
             </div>
             <button
-            onClick={()=>handleStackButton()} 
-            disabled={isStack}
+            onClick={handleStackButton} 
+            // disabled={isStack}
             className= {`${!isStack?"bg-black text-white":"text-[#EC4899] bg-[#f5dbe8]"}  text-[12px] font-semibold mt-2 py-2 px-6 rounded-2xl flex justify-center items-center gap-1.5 disabled:cursor-not-allowed disabled:opacity-75 `}>{!isStack?(<>Add to Stack</>):<><span className="text-[#EC4899] ">
                 <FaCheck /></span> Added to stack</>}</button>
            
