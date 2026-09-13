@@ -6,13 +6,13 @@
 Devstack is an interactive website built with React. Here users can browse popular technologies across different catagories such as Fronted, Backend, Styling  Database, Language, DevOps and add their preferred technologies to a personalized stack. It features reusable components, dynamic state management, technology filtering, interactive section, responsive design and a clean modern UI.
 
 ## Using Technologies:
-1.React.js
-2.Tailwind CSS
-3.TypeScript
-4.JavaScript (ES6+)
-5.React-Toastify
-6.JSON
-7.Vite 
+1.React.js  
+2.Tailwind CSS  
+3.TypeScript  
+4.JavaScript (ES6+)  
+5.React-Toastify  
+6.JSON  
+7.Vite   
 
 
 ## 3 features of this projects:
@@ -27,10 +27,10 @@ Devstack is an interactive website built with React. Here users can browse popul
 Ans: JSX (JavaScript XML) is a syntax extension for JavaScript that allows HTML code inside JavaScript.
 JSX makes React code easier to read, write and understand in which UI is described in HTML structure.
 For Example,
-      function addFunctuion(){
-  return <h2>Hello, World</h2>
- }
-Here, <h2>Hello, World</h2> is JSX.
+           "function addFunctuion(){
+           return <h2>Hello, World</h2>
+             }"
+Here, "<h2>Hello, World</h2> is JSX."
 In short, JSX is used in React to make it easier and more intuitive to create and manage user interface.
 
 ## What is the difference between Props and State?
@@ -47,11 +47,13 @@ Ans: The differences are-
 3. State is controlled by the component itself.
 4. State is used to manage changing data or UI behaviour
 
-## In Simple Way- Props is data coming into a component and State is data managing inside a component.
+In Simple Way- Props is data coming into a component and State is data managing inside a component.
 
 ## What does the useState hook do, and where did you use it in this project?
 Ans: The useState hook is a React hook used to create and manage state inside a functional component. It allows a component to store data and update UI when that data changes.
-In this project I have to use useState hook in the components. For example,
+In this project I have to use useState hook in the components. 
+
+For example,
      const [count,setCount] =useState(0);
 
 		Here, count- the current state value
