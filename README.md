@@ -5,7 +5,19 @@
 # Description
 ## Devstack is an interactive website built with React. Here users can browse popular technologies across different catagories such as Fronted, Backend, Styling  Database, Language, DevOps and add their preferred technologies to a personalized stack. It features reusable components, dynamic state management, technology filtering, interactive section, responsive design and a clean modern UI.
 
+# Using Technologies:
+## React.js
+Tailwind CSS
+TypeScript
+JavaScript (ES6+)
+React-Toastify
+JSON
+Vite 
 
+# 3 features of this projects:
+## 1. Interactive Technology Cards - Explore technologies with descriptions, catagories, experience levels and ratings.
+2. Reusable React Components - This website is built using reusable and maintainable components for better code generation.
+3. Dynamic Stack Panel - View selected technologies in one place
 
 
 
